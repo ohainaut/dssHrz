@@ -263,7 +263,7 @@ def plotIt(startTime, object,
     ax.text(0.0, -0.1,  Oversion,
                   size=8, horizontalalignment='left', color='grey', transform=ax.transAxes)
 
-    ax.text(0.5, -0.1,  f'Survey: {dssMode}',
+    ax.text(0.5, -0.1,  f'Survey: {dssMode[ dssMode.index("=")+1: ]}',
                   size=8, horizontalalignment='center', transform=ax.transAxes)
 
 
